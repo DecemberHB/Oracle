@@ -316,3 +316,6 @@ D.DNAME
  SELECT * 
     FROM SALE S
     LEFT JOIN EMP E ON S.EMPNO = E.EMPNO;
+    
+
+    
