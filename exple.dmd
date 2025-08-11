@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exple" id="92A17817-860F-6263-A895-4AE3D10589AB" version="3.5">
-<createdBy>GGG</createdBy>
-<createdTime>2025-08-11 04:51:46 UTC</createdTime>
-<ownerDesignName>exple</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>92A17817-860F-6263-A895-4AE3D10589AB</designId>
-</OSDM_Design>
