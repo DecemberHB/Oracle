@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Register" directorySegmentName="seg_0" id="12D0219E-7F61-4330-81F3-F7BE90129FFD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="regGrade" id="22062B96-1A07-E461-9EE8-9CE02057E011">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regTotalScore" id="7AA3CE9C-FBE6-F5A1-EC5D-814BE40BBA9A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regFinalScore" id="BE9B0477-1061-BDC1-1F48-C0F1C95D5B62">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regLecNo" id="C57E5C26-79EB-0F03-C641-2B1117C003F3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regStdNo" id="E59C9B9C-B8C3-7C2D-1A6A-185343542403">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="regMidScore" id="EEABD0B6-6470-CDC3-5E3F-533A5483665B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Register_PK" id="36C12E95-6991-6249-5C40-192D7B7F557F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

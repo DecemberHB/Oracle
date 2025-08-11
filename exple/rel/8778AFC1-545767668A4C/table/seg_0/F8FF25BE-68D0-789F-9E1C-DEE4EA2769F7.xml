@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8FF25BE-68D0-789F-9E1C-DEE4EA2769F7" name="TABLE_1">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:12 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Column_1" id="9E0391EF-1EBF-C8B0-2FC1-2686D7DCA51B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:33 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>111 BYTE</dataTypeSize>
+<ownDataTypeParameters>111 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_2" id="1D50736C-1E3B-7586-70A0-4E268FA30DB8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:33 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="49538D33-C839-2B63-CAD0-422B9931F3F5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:33 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_4" id="F0BCD20E-7610-B515-1D31-3F82727EC514">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:33 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_5" id="C3A81814-117D-1776-DA15-90959E4F121B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:33 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BEB93D7-4AFA-A82F-F429-002096CB6209" name="TABLE_1_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 04:52:33 UTC</createdTime>
+<ownerDesignName>exple</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E0391EF-1EBF-C8B0-2FC1-2686D7DCA51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

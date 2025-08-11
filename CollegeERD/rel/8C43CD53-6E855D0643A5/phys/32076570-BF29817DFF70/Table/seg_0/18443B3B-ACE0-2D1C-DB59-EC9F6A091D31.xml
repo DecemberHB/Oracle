@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STUDENT" directorySegmentName="seg_0" id="18443B3B-ACE0-2D1C-DB59-EC9F6A091D31">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="stdYear" id="0F066D01-04EA-BF4A-AD00-D674880BB753">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stdHp" id="4DC6DC18-080F-9190-7149-7AE8AFE1B2FB">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stdNo" id="6FA418CD-AA7C-D473-6101-831C4FA428E5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stdName" id="DBDA0B34-BC80-0D15-B9DB-32597D0C06DA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stdAddress" id="EE5ABDCC-F927-72D4-26D9-2AC1470B479E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STUDENT_PK" id="BD81915F-EA17-82A0-7B12-8F12AB86BA79">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:30:15 UTC</createdTime>
+<ownerDesignName>CollegeERD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

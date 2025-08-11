@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBBC2E37-2830-1951-7533-3E8F88B28EC3" name="BANK_CUSTOMER">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:11 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="C_NO" id="A9740AF0-1D79-1D3A-0E1E-3A58CB5E8677">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:52 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_NAME" id="5775B4DB-8835-5837-3170-BC59F38D6CAC">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:52 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_DIST" id="42D13D7E-73F7-4870-C035-98D60EB3487C">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:52 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_PHONE" id="8D237DBB-1DC3-BBD1-C06F-CEFD2CEDE87B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:52 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_ADDR" id="426F6072-F2F7-5BA7-A423-1715C1CCDEBA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:52 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="511CBB77-0B5E-9762-C406-053677E5198F" name="BANK_CUSTOMER_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:13:52 UTC</createdTime>
+<ownerDesignName>col2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9740AF0-1D79-1D3A-0E1E-3A58CB5E8677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
