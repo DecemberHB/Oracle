@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE4AB1B-0903-9BEC-E302-04EBA3AC94F8" name="Cart">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:14:18 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cartNo" id="D088678D-D704-C78D-B506-81E605C945BD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:30:11 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userId" id="BB17AB0F-D18D-B223-27C6-F1E0A9B39BEB">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:36:37 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="107DDD81-716B-25F5-0EBC-884D781974B9" referredColumn="A239E222-C67B-C4AB-3FFE-90F518453830"/>
+</associations>
+</Column>
+<Column name="prodNo" id="44D01BD6-45CA-0FE7-C050-85E977583089">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:37:40 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42E28DF7-52E5-4A1A-B19D-7C0F086523EF" referredColumn="4CC25FFB-6F78-1C3E-DFBC-EDC094381958"/>
+</associations>
+</Column>
+<Column name="cartProdCount" id="979C858A-44AF-441D-15E5-F4D6EA3C7AA5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:30:11 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cartProdDate" id="119AEB55-D63B-6DE4-665B-5C1E96B99C31">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:30:11 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44E357C0-D570-3BCC-5964-15BB537955D1" name="Cart_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:30:11 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D088678D-D704-C78D-B506-81E605C945BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4CA47D2-A825-7986-D87F-504D0019A56A" name="Cart_User_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:36:37 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB17AB0F-D18D-B223-27C6-F1E0A9B39BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95715F07-5D90-4FD4-3D22-8F5649FA9161" name="Cart_Product_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 06:37:40 UTC</createdTime>
+<ownerDesignName>ShoppingProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44D01BD6-45CA-0FE7-C050-85E977583089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
